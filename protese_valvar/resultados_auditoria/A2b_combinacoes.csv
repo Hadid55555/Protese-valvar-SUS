@@ -1,0 +1,11 @@
+codigos,n
+bio_c_suporte,6763
+bio_c_suporte+bio_c_suporte,5685
+mec_duplo_folheto,4909
+mec_duplo_folheto+mec_duplo_folheto,3804
+bio_c_suporte+mec_duplo_folheto,837
+bio_c_suporte+bio_s_suporte,158
+mec_disco+mec_duplo_folheto,156
+bio_c_suporte+bio_c_suporte+bio_c_suporte,51
+bio_c_suporte+mec_disco,42
+bio_c_suporte+bio_s_suporte+mec_disco+mec_duplo_folheto,29

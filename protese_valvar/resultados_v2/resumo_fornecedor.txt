@@ -1,0 +1,39 @@
+
+F1. Fornecedores de mec (% das AIH no ano), seleção:
+      MAQUET CARDIOPULMONARY DO BR  ST JUDE MEDICAL BRASIL LTDA  EXTRACOR  X MED  LABCOR LABORATORIOS LTDA  JOTEC DO BRASIL  SOMMA-PRODUTOS HOSPITALARES   MP COMERCIO DE PRODUTOS MEDI  outros
+ano                                                                                                                                                                                            
+2008                           5.0                         56.0       3.0    1.0                       6.0              0.0                           0.0                           2.0    27.0
+2012                           7.0                         67.0       3.0    1.0                       5.0              0.0                           0.0                           0.0    18.0
+2016                           3.0                         59.0       4.0    6.0                       0.0              0.0                           0.0                           2.0    26.0
+2018                           0.0                         52.0       5.0    8.0                       0.0              0.0                           1.0                           4.0    30.0
+2020                           0.0                         12.0       3.0    6.0                       0.0              4.0                           5.0                           4.0    65.0
+2022                           0.0                          6.0       2.0    5.0                       0.0             12.0                           4.0                           3.0    67.0
+2025                           0.0                          7.0       3.0   12.0                       0.0             21.0                           7.0                           3.0    47.0
+
+F1. Fornecedores de bio (% das AIH no ano), seleção:
+      DISCOMED COMERCIO DE PRODUTO  ST JUDE MEDICAL BRASIL LTDA  EXTRACOR  POTENGY COMERCIO E REPRESENT  LABCOR LABORATORIOS LTDA  BRAILE BIOMEDICA INDUSTRIA C  MP COMERCIO DE PRODUTOS MEDI  M.R.BIOMEDICA RIO PRETO LTDA  outros
+ano                                                                                                                                                                                                                                
+2008                           0.0                         37.0       2.0                           1.0                      13.0                          27.0                           0.0                           1.0    18.0
+2012                           0.0                         41.0       2.0                           1.0                       7.0                          30.0                           0.0                           1.0    17.0
+2016                           0.0                         40.0       2.0                           2.0                       3.0                          25.0                           2.0                           4.0    22.0
+2018                           3.0                         37.0       2.0                           4.0                       1.0                          25.0                           5.0                           2.0    22.0
+2020                           6.0                          9.0       1.0                           6.0                       2.0                          26.0                           6.0                           4.0    40.0
+2022                           4.0                          4.0       1.0                           5.0                       4.0                          37.0                           3.0                           3.0    38.0
+2025                          12.0                          0.0       3.0                           8.0                       3.0                          13.0                           1.0                           3.0    57.0
+
+F2. Hospitais com ≥30 AIH de 18–59 anos em 2016–19 e 2021–25: 127. Variação do % de mecânica (p.p.):
+        count  mean   std   min   25%  50%   75%   max
+trocou                                                
+False    29.0   6.4  24.0 -34.8 -14.2  5.0  21.5  52.6
+True     98.0   6.1  18.7 -33.0  -7.6  5.0  18.2  60.3
+  Para quem trocou, novo fornecedor principal (nº de hospitais):
+B
+JOTEC DO BRASIL                     10
+SOMMA-PRODUTOS HOSPITALARES LTDA    10
+NEOMEX HOSPITALAR LTDA               6
+63240477000164                       5
+X MED                                5
+24436602000154                       4
+22244418000187                       4
+65348682000173                       3
+  Hospitais com aumento ≥10 p.p.: 48; com queda ≥10 p.p.: 28

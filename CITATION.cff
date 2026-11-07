@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this code or results, please cite them as below."
+title: "Mechanical versus biological valve prostheses in Brazil's public health system, 2000–2025: code and aggregated results"
+type: software
+authors:
+  - family-names: Hadid
+    given-names: Leonardo
+    affiliation: "Instituto Nacional de Cardiologia, Rio de Janeiro, Brazil"
+  - family-names: Salek
+    given-names: Luísa
+    affiliation: "Instituto Nacional de Cardiologia, Rio de Janeiro, Brazil"
+  - family-names: Passos
+    given-names: Felipe S.
+    affiliation: "Hospital MaterDei, Salvador, Brazil"
+  - family-names: Caldonazo
+    given-names: Tulio
+    affiliation: "Jena University Hospital, Friedrich-Schiller-University Jena, Jena, Germany"
+version: "1.0.0"
+date-released: "2026-11-07"
+license: MIT
+repository-code: "https://github.com/Hadid55555/Protese-valvar-SUS"
+keywords:
+  - heart valve prosthesis
+  - mechanical valve
+  - bioprosthesis
+  - Brazil
+  - DATASUS
+  - administrative data

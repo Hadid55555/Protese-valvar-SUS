@@ -1,0 +1,9 @@
+janela,protese,n,mesma_valva
+≤30d,bio,117,0.56
+≤30d,mec,57,0.54
+31-90d,bio,130,0.53
+31-90d,mec,49,0.51
+91d-1a,bio,214,0.56
+91d-1a,mec,118,0.5
+>1a,bio,3188,0.55
+>1a,mec,478,0.44

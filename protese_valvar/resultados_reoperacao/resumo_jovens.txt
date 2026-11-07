@@ -1,0 +1,55 @@
+
+J1. Reoperação por faixa, valva e prótese (incidência acumulada %, anos até 5%/10%, RMST 10 anos):
+faixa   valva protese      n  reop  CI_5a  CI_10a  CI_15a  anos_ate_5pct  anos_ate_10pct  mediana_anos_reoperados
+10-17 aórtica     bio  306.0  49.0    8.3    16.6    22.6            3.2             5.6                      5.4
+10-17 aórtica     mec  291.0  13.0    3.1     6.1     6.1            9.7             NaN                      4.6
+10-17  mitral     bio  704.0 137.0   11.8    18.8    24.6            2.8             4.4                      4.5
+10-17  mitral     mec  305.0  11.0    3.1     3.7     4.7            NaN             NaN                      1.9
+18-29 aórtica     bio 1155.0 150.0    5.0    11.7    19.1            5.2             8.3                      6.6
+18-29 aórtica     mec 1116.0  36.0    2.2     3.4     4.4            NaN             NaN                      3.4
+18-29  mitral     bio 2907.0 380.0    4.6    13.0    17.7            5.3             8.2                      6.7
+18-29  mitral     mec 1467.0  40.0    2.1     2.7     3.5            NaN             NaN                      1.4
+30-39 aórtica     bio 1639.0 187.0    4.8    11.7    18.5            5.1             9.2                      6.7
+30-39 aórtica     mec 1950.0  46.0    1.9     2.8     3.0            NaN             NaN                      2.2
+30-39  mitral     bio 4710.0 554.0    4.1    11.2    17.2            6.0             9.3                      7.3
+30-39  mitral     mec 3812.0  91.0    1.7     2.7     3.2            NaN             NaN                      3.8
+40-49 aórtica     bio 3225.0 297.0    3.8     9.4    16.1            6.2            10.4                      6.8
+40-49 aórtica     mec 3509.0  78.0    1.5     2.2     3.5            NaN             NaN                      2.8
+40-49  mitral     bio 7185.0 710.0    3.7     9.9    15.9            6.6            10.0                      7.4
+40-49  mitral     mec 6867.0 142.0    1.5     2.2     3.0            NaN             NaN                      2.7
+50-59 aórtica     bio 7123.0 500.0    3.3     7.9    13.6            7.3            11.5                      6.5
+50-59 aórtica     mec 5664.0 103.0    1.4     2.2     2.7            NaN             NaN                      2.0
+50-59  mitral     bio 9450.0 685.0    2.8     8.1    12.1            7.5            11.9                      7.1
+50-59  mitral     mec 7734.0 142.0    1.5     2.1     2.8            NaN             NaN                      2.1
+
+Diferença no tempo médio livre de reoperação em 10 anos (mecânica − biológica, meses):
+faixa   valva  meses_a_mais_sem_reop_mec_10a  IC95_inf  IC95_sup
+10-17 aórtica                            6.6       2.9      10.8
+10-17  mitral                            9.0       6.5      12.2
+18-29 aórtica                            4.3       2.9       5.9
+18-29  mitral                            4.3       3.1       5.5
+30-39 aórtica                            4.1       2.9       5.4
+30-39  mitral                            3.8       3.0       4.6
+40-49 aórtica                            3.4       2.5       4.3
+40-49  mitral                            3.4       2.9       3.9
+50-59 aórtica                            2.7       2.2       3.2
+50-59  mitral                            2.5       2.0       3.0
+
+J2. HR biológica × mecânica por faixa (Cox estratificado por valva; ajustado por sexo, reumática, ano):
+  10-17: n=1,606  HR 4.63 (3.01–7.14)
+  18-29: n=6,645  HR 4.48 (3.51–5.71)
+  30-39: n=12,111  HR 4.81 (4.00–5.77)
+  40-49: n=20,786  HR 4.49 (3.88–5.20)
+  50-59: n=29,971  HR 3.85 (3.36–4.42)
+
+J3. Eventos por janela após a alta do índice (n; proporção com mesma valva):
+                   n  mesma_valva
+janela protese                   
+≤30d   bio       117         0.56
+       mec        57         0.54
+31-90d bio       130         0.53
+       mec        49         0.51
+91d-1a bio       214         0.56
+       mec       118         0.50
+>1a    bio      3188         0.55
+       mec       478         0.44

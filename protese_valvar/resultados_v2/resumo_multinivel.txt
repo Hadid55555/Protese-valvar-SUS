@@ -1,0 +1,31 @@
+
+M1. Multinível: 142,971 AIH (≥18 anos, aórtica/mitral) em 239 hospitais com ≥30 AIH
+                                                 OR_misto  OR_fixo
+Intercept                                            0.34     0.47
+C(fx, Treatment('60-64'))[T.18-29]                   2.34     2.01
+C(fx, Treatment('60-64'))[T.30-39]                   3.26     2.64
+C(fx, Treatment('60-64'))[T.40-49]                   3.38     2.71
+C(fx, Treatment('60-64'))[T.50-59]                   2.29     1.99
+C(fx, Treatment('60-64'))[T.65-69]                   0.39     0.45
+C(fx, Treatment('60-64'))[T.70+]                     0.09     0.11
+C(sexo)[T.M]                                         1.04     1.05
+C(valva)[T.mitral]                                   1.07     0.98
+C(etiologia)[T.endocardite]                          0.46     0.50
+C(etiologia)[T.indeterminada]                        1.24     0.97
+C(etiologia)[T.não reumática]                        0.84     0.74
+C(etiologia)[T.reumática]                            0.99     0.94
+C(per)[T.2013-17]                                    0.93     0.92
+C(per)[T.2018-21]                                    1.05     1.08
+C(per)[T.2022-25]                                    1.38     1.35
+C(regiao, Treatment('Sudeste'))[T.Centro-Oeste]      1.13     1.26
+C(regiao, Treatment('Sudeste'))[T.Nordeste]          0.39     0.71
+C(regiao, Treatment('Sudeste'))[T.Norte]             0.35     0.48
+C(regiao, Treatment('Sudeste'))[T.Sul]               2.35     2.63
+C(vol)[T.25-49]                                      0.95     0.97
+C(vol)[T.50-99]                                      1.01     0.84
+C(vol)[T.100+]                                       1.14     0.70
+urgencia                                             0.90     0.87
+  DP do intercepto do hospital = 1.20; MOR = 3.15; ICC = 0.31
+  (MOR: mediana do OR entre dois hospitais quaisquer para o mesmo paciente)
+
+M2. Funnel 18–59 anos, 2020–25: 171 hospitais (≥30 AIH); média 51.9%. Acima do limite 99,8%: 49; abaixo: 49. Ajustado P10–P90: 15%–87%

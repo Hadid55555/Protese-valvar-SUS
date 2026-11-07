@@ -1,0 +1,13 @@
+cenario,valva,2008-12,2013-17,2018-19,2020-21,2022-25
+principal,aórtica,48.6,44.3,45.3,50.6,52.1
+principal,mitral,42.2,41.1,43.7,50.7,52.4
+sem_cid_padrao,aórtica,48.4,44.3,45.5,50.3,52.1
+sem_cid_padrao,mitral,43.1,42.7,43.7,49.8,52.3
+sem_opm_baixa,aórtica,49.0,44.7,45.4,50.5,52.6
+sem_opm_baixa,mitral,42.0,41.0,43.2,50.1,52.8
+sem_2008_09,aórtica,48.3,44.3,45.3,50.6,52.1
+sem_2008_09,mitral,42.1,41.1,43.7,50.7,52.4
+sem_endocardite,aórtica,48.6,44.4,45.4,50.6,52.3
+sem_endocardite,mitral,42.2,41.2,43.8,50.7,52.5
+todas,aórtica,48.6,44.7,45.6,50.1,52.7
+todas,mitral,42.6,42.7,43.2,49.3,52.9

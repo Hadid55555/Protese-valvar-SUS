@@ -1,0 +1,9 @@
+step,n
+"AIH with a valve-prosthesis OPM code, 2008–2025",225321
+Excluded: both biological and mechanical prostheses billed,1021
+Excluded: valve position indeterminada,49563
+Excluded: valve position dupla/múltipla,21547
+Excluded: valve position tric/pulm,4194
+Excluded: valve position múltipla,3421
+Excluded: age <18 years or missing,2216
+"Analysis cohort (adults, isolated aortic or mitral position, one prosthesis type)",143359

@@ -1,0 +1,11 @@
+
+C1. Plástica mitral (0406010803/0406010811 com CID mitral principal; não inclui plásticas dentro de múltiplas) × troca mitral com OPM; Ross; tubo valvado:
+      plastica_mitral  troca_mitral_com_opm  pct_plastica  ross  tubo_valvado
+ano                                                                          
+2008              399                  4133           8.8    21           387
+2011              649                  4871          11.8    19           555
+2014              598                  5002          10.7     8           571
+2017              498                  4242          10.5     5           535
+2020              273                  3104           8.1    13           422
+2023              361                  4544           7.4    19           399
+2025              357                  4610           7.2     9           450

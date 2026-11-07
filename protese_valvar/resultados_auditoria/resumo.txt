@@ -1,0 +1,129 @@
+A1. % por valva e ano (seleção):
+valva  aórtica  dupla/múltipla  indeterminada  mitral  múltipla  tric/pulm
+ano                                                                       
+2008      23.7             9.8           23.2    38.0       2.8        2.4
+2011      26.1            10.4           20.7    39.6       1.0        2.3
+2014      28.6            10.5           17.5    39.6       1.7        2.1
+2017      30.0             9.6           22.9    34.7       1.2        1.6
+2020      30.6            10.5           25.1    31.1       1.3        1.4
+2023      33.2            10.3           22.1    31.5       1.4        1.6
+Indeterminada: 22.0% no total
+
+A2. AIH com 2+ próteses: 22,568 (10.0%)
+                n  pct_codigos_diferentes  pct_cid_I08
+proc_aih                                              
+0406010820  16602                     3.3         27.1
+0415010012   2818                     6.6         23.5
+0406011206   1179                     8.2          1.1
+0406010692   1084                    35.3          8.2
+0415020034    846                    12.6         15.2
+0406010846     33                    78.8          0.0
+0406010552      4                     0.0          0.0
+0406010021      2                    50.0          0.0
+Combinações de OPM mais comuns:
+                                                            n
+codigos                                                      
+bio_c_suporte                                            6763
+bio_c_suporte+bio_c_suporte                              5685
+mec_duplo_folheto                                        4909
+mec_duplo_folheto+mec_duplo_folheto                      3804
+bio_c_suporte+mec_duplo_folheto                           837
+bio_c_suporte+bio_s_suporte                               158
+mec_disco+mec_duplo_folheto                               156
+bio_c_suporte+bio_c_suporte+bio_c_suporte                  51
+bio_c_suporte+mec_disco                                    42
+bio_c_suporte+bio_s_suporte+mec_disco+mec_duplo_folheto    29
+
+A3. % mecânica, 15–44 anos, mulheres (F) e homens (M), por cenário:
+valva                                    aórtica       mitral      
+sexo                                           F     M      F     M
+cenario                          periodo                           
+1_protese_e_CID_principal_valvar 2008-12    46.3  54.5   38.9  43.5
+                                 2013-17    42.5  52.0   37.2  43.9
+                                 2018-21    45.5  54.1   44.0  49.8
+                                 2022-25    55.6  59.5   52.8  55.2
+sem_endocardite                  2008-12    46.5  54.5   38.9  43.6
+                                 2013-17    42.5  52.5   37.2  44.1
+                                 2018-21    46.5  54.1   44.0  50.1
+                                 2022-25    56.8  60.7   53.0  55.2
+sem_multiplas_0415               2008-12    46.4  54.3   39.3  44.2
+                                 2013-17    42.2  52.0   37.1  43.7
+                                 2018-21    46.7  52.9   43.3  48.2
+                                 2022-25    56.3  60.2   52.0  54.4
+so_0406010692                    2008-12    47.5  55.0   39.1  44.5
+                                 2013-17    42.3  51.9   36.9  44.8
+                                 2018-21    46.6  53.3   43.9  48.2
+                                 2022-25    56.1  59.6   52.1  53.8
+so_eletiva                       2008-12    46.0  54.2   38.1  40.2
+                                 2013-17    40.9  49.8   36.7  43.4
+                                 2018-21    45.7  53.0   45.0  48.8
+                                 2022-25    59.0  62.6   55.0  55.1
+so_nao_reumatica                 2008-12    43.8  54.0   35.5  39.5
+                                 2013-17    42.3  51.2   35.3  43.4
+                                 2018-21    49.0  55.7   39.3  46.4
+                                 2022-25    58.2  63.5   53.7  56.9
+so_reumatica                     2008-12    49.5  54.8   40.1  45.4
+                                 2013-17    41.4  53.5   37.8  44.3
+                                 2018-21    42.7  47.8   45.4  51.5
+                                 2022-25    49.8  50.9   52.8  54.5
+todas                            2008-12    46.4  54.5   38.9  43.6
+                                 2013-17    42.5  52.2   37.2  44.1
+                                 2018-21    46.6  54.0   43.8  49.8
+                                 2022-25    56.7  60.4   52.9  55.2
+
+A3b. % mecânica por ano, 15–44:
+valva aórtica       mitral      
+sexo        F     M      F     M
+ano                             
+2016     42.0  53.0   34.0  42.0
+2017     43.0  44.0   40.0  41.0
+2018     41.0  53.0   39.0  44.0
+2019     39.0  52.0   42.0  48.0
+2020     54.0  51.0   47.0  58.0
+2021     59.0  61.0   50.0  52.0
+2022     57.0  60.0   56.0  63.0
+2023     57.0  60.0   48.0  52.0
+2024     57.0  61.0   55.0  54.0
+2025     56.0  61.0   53.0  52.0
+
+% de AIH 0415 entre as 15–44 por período:
+periodo
+2008-12     4.5
+2013-17     8.0
+2018-21    12.1
+2022-25    22.0
+
+A3c. % mecânica por faixa (ambos os sexos):
+valva   aórtica                   mitral                  
+fx          <15 15-44 45-59   60+    <15 15-44 45-59   60+
+periodo                                                   
+2008-12    52.9  51.7  46.5  18.0   31.0  40.6  43.3  19.2
+2013-17    49.5  48.8  41.7  13.1   33.1  39.5  42.1  17.1
+2018-21    53.9  51.3  45.7  12.1   45.7  45.8  47.3  18.9
+2022-25    59.2  59.1  49.5  14.1   52.3  53.7  51.5  20.4
+
+A3d. Mulheres 15–44 com mecânica: tipo (disco × duplo folheto) por período, %:
+tipo_mec  disco  duplo folheto
+periodo                       
+2008-12     0.6           99.4
+2013-17     0.7           99.3
+2018-21     1.2           98.8
+2022-25     2.1           97.9
+cnpj     00944324000188  00986846000142  01328114000128  05409930000117  19336924000191  21996505000128  outros
+periodo                                                                                                        
+2008-12             8.0            54.9             3.0             1.8             9.7             0.0    22.6
+2013-17             6.3            66.6             3.5             1.9             0.2             0.0    21.4
+2018-21             0.0            27.6             3.0             5.0             0.1             1.5    62.7
+2022-25             0.0             7.4             3.3             4.7             0.1            22.3    62.3
+
+A3f. Mulheres 15–44: mecânicas 2018–21 = 1430, 2022–25 = 1712; os 10 hospitais com maior aumento respondem por 279 do aumento líquido de 282. Total de AIH (todas próteses): 3222 → 3182
+
+A4. % mecânica em adultos, SUS × EUA (Alkhouli 2021, NIS):
+valva  aórtica  mitral  ref_EUA_aortica  ref_EUA_mitral
+ano                                                    
+2008      35.6    35.9             45.3            59.5
+2011      32.7    34.9              NaN             NaN
+2014      29.7    33.9              NaN             NaN
+2017      23.5    31.9             17.0            29.2
+2020      24.7    37.4              NaN             NaN
+2025      26.4    37.7              NaN             NaN

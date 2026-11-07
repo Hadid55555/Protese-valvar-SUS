@@ -1,0 +1,13 @@
+cenario,valva,n,reop,HR_bio_vs_mec,IC95
+principal,aórtica,34560,1759,4.12,3.63–4.67
+principal,mitral,52289,3071,4.22,3.82–4.66
+sem_cid_padrao,aórtica,34238,1745,4.09,3.61–4.64
+sem_cid_padrao,mitral,48558,2752,4.23,3.81–4.69
+sem_opm_baixa,aórtica,31805,1659,4.15,3.65–4.72
+sem_opm_baixa,mitral,48548,2943,4.29,3.87–4.76
+sem_2008_09,aórtica,31259,1420,3.64,3.18–4.16
+sem_2008_09,mitral,46177,2438,4.18,3.74–4.67
+sem_endocardite,aórtica,34436,1749,4.11,3.62–4.66
+sem_endocardite,mitral,52149,3060,4.22,3.82–4.66
+todas,aórtica,28369,1325,3.62,3.15–4.16
+todas,mitral,39612,2057,4.18,3.70–4.71

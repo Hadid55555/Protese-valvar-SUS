@@ -1,0 +1,70 @@
+CID padrão (≥70%, hospital-anos com ≥10 AIH): 199 hospital-anos, 5.1% das AIH. CID mais comum nesses: {'I05': 132, 'Q22': 28, 'I06': 13, 'I42': 9}  [VALIDACAO_CENTROS: 163 hospital-anos, 5,1%]
+Procedimentos de troca (≥50% com OPM, ≥100 AIH): ['0406010692', '0406010820', '0406011206']
+Hospitais com ≥100 AIH de troca e <80% com OPM: 28; 7.5% das AIH com OPM  [VALIDACAO_CENTROS: 15 hospitais, 3,6%]
+Endocardite (I33 em qualquer CID): 0.7% das AIH; 2008–09: 9.6%
+
+=== principal: 143,359 AIH (excluídas 0; 0.0%)
+% mecânica 18–59:
+per      2008-12  2013-17  2018-19  2020-21  2022-25
+valva                                               
+aórtica     48.6     44.3     45.3     50.6     52.1
+mitral      42.2     41.1     43.7     50.7     52.4
+OR 2022–25 × 2018–19: 1.45 (1.37–1.53)
+Multinível: {'cenario': 'principal', 'AIH': 142983, 'hospitais': 239, 'MOR': 3.15, 'ICC': 0.31, 'OR_Sul_misto': 2.35, 'OR_Nordeste_misto': 0.39, 'OR_Norte_misto': 0.35, 'OR_Centro-Oeste_misto': 1.13}
+Reoperação aórtica: HR 4.12 (3.63–4.67), n=34,560
+Reoperação mitral: HR 4.22 (3.82–4.66), n=52,289
+
+=== sem_cid_padrao: 137,276 AIH (excluídas 6,083; 4.2%)
+% mecânica 18–59:
+per      2008-12  2013-17  2018-19  2020-21  2022-25
+valva                                               
+aórtica     48.4     44.3     45.5     50.3     52.1
+mitral      43.1     42.7     43.7     49.8     52.3
+OR 2022–25 × 2018–19: 1.44 (1.36–1.52)
+Multinível: {'cenario': 'sem_cid_padrao', 'AIH': 136849, 'hospitais': 236, 'MOR': 3.15, 'ICC': 0.3, 'OR_Sul_misto': 2.36, 'OR_Nordeste_misto': 0.42, 'OR_Norte_misto': 0.34, 'OR_Centro-Oeste_misto': 1.23}
+Reoperação aórtica: HR 4.09 (3.61–4.64), n=34,238
+Reoperação mitral: HR 4.23 (3.81–4.69), n=48,558
+
+=== sem_opm_baixa: 132,465 AIH (excluídas 10,894; 7.6%)
+% mecânica 18–59:
+per      2008-12  2013-17  2018-19  2020-21  2022-25
+valva                                               
+aórtica     49.0     44.7     45.4     50.5     52.6
+mitral      42.0     41.0     43.2     50.1     52.8
+OR 2022–25 × 2018–19: 1.45 (1.37–1.54)
+Multinível: {'cenario': 'sem_opm_baixa', 'AIH': 132089, 'hospitais': 212, 'MOR': 3.02, 'ICC': 0.29, 'OR_Sul_misto': 2.35, 'OR_Nordeste_misto': 0.43, 'OR_Norte_misto': 0.28, 'OR_Centro-Oeste_misto': 1.07}
+Reoperação aórtica: HR 4.15 (3.65–4.72), n=31,805
+Reoperação mitral: HR 4.29 (3.87–4.76), n=48,548
+
+=== sem_2008_09: 129,996 AIH (excluídas 13,363; 9.3%)
+% mecânica 18–59:
+per      2008-12  2013-17  2018-19  2020-21  2022-25
+valva                                               
+aórtica     48.3     44.3     45.3     50.6     52.1
+mitral      42.1     41.1     43.7     50.7     52.4
+OR 2022–25 × 2018–19: 1.44 (1.37–1.52)
+Multinível: {'cenario': 'sem_2008_09', 'AIH': 129596, 'hospitais': 234, 'MOR': 3.22, 'ICC': 0.31, 'OR_Sul_misto': 2.29, 'OR_Nordeste_misto': 0.4, 'OR_Norte_misto': 0.29, 'OR_Centro-Oeste_misto': 1.18}
+Reoperação aórtica: HR 3.64 (3.18–4.16), n=31,259
+Reoperação mitral: HR 4.18 (3.74–4.67), n=46,177
+
+=== sem_endocardite: 142,856 AIH (excluídas 503; 0.4%)
+% mecânica 18–59:
+per      2008-12  2013-17  2018-19  2020-21  2022-25
+valva                                               
+aórtica     48.6     44.4     45.4     50.6     52.3
+mitral      42.2     41.2     43.8     50.7     52.5
+OR 2022–25 × 2018–19: 1.45 (1.37–1.53)
+Multinível: {'cenario': 'sem_endocardite', 'AIH': 142481, 'hospitais': 239, 'MOR': 3.15, 'ICC': 0.31, 'OR_Sul_misto': 2.35, 'OR_Nordeste_misto': 0.38, 'OR_Norte_misto': 0.35, 'OR_Centro-Oeste_misto': 1.13}
+Reoperação aórtica: HR 4.11 (3.62–4.66), n=34,436
+Reoperação mitral: HR 4.22 (3.82–4.66), n=52,149
+
+=== todas: 114,449 AIH (excluídas 28,910; 20.2%)
+% mecânica 18–59:
+per      2008-12  2013-17  2018-19  2020-21  2022-25
+valva                                               
+aórtica     48.6     44.7     45.6     50.1     52.7
+mitral      42.6     42.7     43.2     49.3     52.9
+OR 2022–25 × 2018–19: 1.44 (1.36–1.53)
+Multinível: {'cenario': 'todas', 'AIH': 114047, 'hospitais': 206, 'MOR': 3.11, 'ICC': 0.3, 'OR_Sul_misto': 2.37, 'OR_Nordeste_misto': 0.47, 'OR_Norte_misto': 0.2, 'OR_Centro-Oeste_misto': 1.3}
+Reoperação aórtica: HR 3.62 (3.15–4.16), n=28,369
+Reoperação mitral: HR 4.18 (3.70–4.71), n=39,612

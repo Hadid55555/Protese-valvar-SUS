@@ -1,0 +1,16 @@
+Analysis,Estimate,Value (95% CI),P
+"Interrupted time series, level change at 2020-05",OR,1.54 (1.33–1.79),0.000
+"Interrupted time series, level change at 2020-03",OR,1.50 (1.28–1.77),0.000
+"Interrupted time series, level change at 2014-05 (placebo, pre-2020 series)",OR,1.00 (0.91–1.11),0.925
+"Interrupted time series, level change at 2016-05 (placebo, pre-2020 series)",OR,0.95 (0.88–1.02),0.131
+"Interrupted time series, level change at 2018-05 (placebo, pre-2020 series)",OR,1.13 (1.02–1.25),0.017
+Main model (2022–2025 vs 2018–2019),OR,1.45 (1.37–1.53),
+Hospital fixed effects (hospitals active in both periods),OR,1.64 (1.54–1.75),
+Hospitals with plausible ICD coding,OR,1.51 (1.39–1.65),
+Rheumatic aetiology only,OR,1.35 (1.26–1.46),
+Non-rheumatic aetiology only,OR,1.56 (1.44–1.70),
+Excluding hospital-years with a default ICD code (≥70%),OR,1.44 (1.36–1.52),
+Excluding hospitals with <80% OPM recording,OR,1.45 (1.37–1.54),
+Excluding 2008–2009,OR,1.44 (1.37–1.52),
+Excluding endocarditis,OR,1.45 (1.37–1.53),
+All four exclusions combined,OR,1.44 (1.36–1.53),

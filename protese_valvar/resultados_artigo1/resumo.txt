@@ -1,0 +1,31 @@
+E1. ITS mensal, 18–59 anos, % mecânica (binomial; mês do ano; EP HAC 12 lags). Placebos só com a série pré-2020:
+    quebra  meses  OR_nivel  IC95_HAC  p_nivel  OR_inclinacao_por_ano_apos  p_inclinacao  superdispersao
+2020-05-01    216      1.54 1.33–1.79   0.0000                       0.990        0.4880            1.53
+2020-03-01    216      1.50 1.28–1.77   0.0000                       0.999        0.9447            1.58
+2014-05-01    146      1.00 0.91–1.11   0.9252                       1.035        0.0256            1.46
+2016-05-01    146      0.95 0.88–1.02   0.1305                       1.072        0.0000            1.38
+2018-05-01    146      1.13 1.02–1.25   0.0172                       1.011        0.7495            1.42
+
+E2. Volume anual 18–59 anos (aórtica+mitral):
+protese   bio   mec  total  pct_mec
+ano_i                              
+2014     2724  2171   4895     44.4
+2015     2534  1857   4391     42.3
+2016     2512  1747   4259     41.0
+2017     2394  1694   4088     41.4
+2018     2249  1773   4022     44.1
+2019     2400  1932   4332     44.6
+2020     1551  1469   3020     48.6
+2021     1558  1720   3278     52.5
+2022     1679  2155   3834     56.2
+2023     2102  2149   4251     50.6
+2024     2237  2372   4609     51.5
+2025     2173  2297   4470     51.4
+  média/ano 2018–19 → 2022–25: biológica 2324 → 2048 (-12%); mecânica 1852 → 2243 (+21%); total 4177 → 4291
+
+E3–E5. OR de mecânica 2022–25 × 2018–19, 18–59 anos:
+  principal (região, sem hospital): OR 1.45 (1.37–1.53); 77,136 AIH, 270 hospitais
+  efeito fixo de hospital (hospitais ativos nos 2 períodos): OR 1.64 (1.54–1.75); 23,326 AIH, 159 hospitais
+  hospitais com CID plausível (nunca padrão; indeterminada <20%): OR 1.51 (1.39–1.65); 32,210 AIH, 97 hospitais
+  etiologia reumática: OR 1.35 (1.26–1.46); 42,697 AIH, 264 hospitais
+  etiologia não reumática: OR 1.56 (1.44–1.70); 32,480 AIH, 261 hospitais

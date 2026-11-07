@@ -1,0 +1,6 @@
+analise,AIH,hospitais,OR_2022_25_vs_2018_19,IC95
+"principal (região, sem hospital)",77136,270,1.45,1.37–1.53
+efeito fixo de hospital (hospitais ativos nos 2 períodos),23326,159,1.64,1.54–1.75
+hospitais com CID plausível (nunca padrão; indeterminada <20%),32210,97,1.51,1.39–1.65
+etiologia reumática,42697,264,1.35,1.26–1.46
+etiologia não reumática,32480,261,1.56,1.44–1.70

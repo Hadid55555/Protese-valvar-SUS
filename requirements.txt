@@ -1,0 +1,9 @@
+python>=3.11
+pandas==3.0.5
+numpy
+pyarrow==26.0.0
+statsmodels==0.15.0
+matplotlib==3.11.2
+xlsxwriter
+tabulate
+# pandoc (system) is used by montar_manuscrito.py to build .docx files
