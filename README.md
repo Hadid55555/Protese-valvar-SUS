@@ -61,7 +61,8 @@ python protese_valvar/serie_2000_2025.py
 | `auditoria_v1.py` | valve-coding audits | `resultados_auditoria/` |
 | `artigo1_extra.py` | interrupted time series, placebos, volume, hospital fixed effects | `resultados_artigo1/` |
 | `sensibilidades_v1.py` | sensitivity analyses | `resultados_sensibilidade/` |
-| `manuscrito_tabelas.py` | Tables 1–3, Figures 1–4, Tables S1–S8 | `manuscrito/` |
+| `manuscrito_tabelas.py` | Tables 1–3, Figures 1–4 | `manuscrito/` |
+| `suplemento_tabelas.py` | Tables S1–S9 (English labels) | `manuscrito/supp/` |
 | `montar_manuscrito.py` | manuscript and supplement (.docx); the manuscript text will be added after publication | `manuscrito/` |
 
 **5. Exploratory Table S7** (SUS-captured reintervention and complications; not used for conclusions)

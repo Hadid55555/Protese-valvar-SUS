@@ -1,0 +1,7 @@
+Scenario,Admissions aged 18–59 y (2008–2025),OR 2022–2025 vs 2018–2019 (95% CI),Hospitals in multilevel model,MOR,ICC,OR South,OR Northeast,OR North,OR Centre-West
+Main analysis,77136,1.45 (1.37–1.53),239,3.15,0.31,2.35,0.39,0.35,1.13
+Excluding hospital-years with a default ICD code (≥70%),73256,1.44 (1.36–1.52),236,3.15,0.3,2.36,0.42,0.34,1.23
+Excluding hospitals with <80% OPM recording,71376,1.45 (1.37–1.54),212,3.02,0.29,2.35,0.43,0.28,1.07
+Excluding 2008–2009,68562,1.44 (1.37–1.52),234,3.22,0.31,2.29,0.4,0.29,1.18
+Excluding endocarditis,76821,1.45 (1.37–1.53),239,3.15,0.31,2.35,0.38,0.35,1.13
+All four exclusions combined,59896,1.44 (1.36–1.53),206,3.11,0.3,2.37,0.47,0.2,1.3
