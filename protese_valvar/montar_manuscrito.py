@@ -51,10 +51,22 @@ note2 = (f"Mixed-effects logistic model with a random intercept for hospital; {i
 t3 = pd.read_csv("Table3_2020_shift_robustness.csv", dtype=str).fillna("")
 t3["P"] = t3.P.replace({"0.000": "<0.001"})
 t3 = t3.drop(columns="Estimate").rename(columns={"Value (95% CI)": "OR (95% CI)"})
+t3 = t3[~t3.Analysis.str.startswith(("Excluding", "All four"))]
+RT = {"Interrupted time series, level change at 2020-03": "Interrupted time series, break at March 2020 (main)",
+      "Interrupted time series, level change at 2020-05": "Interrupted time series, break at May 2020 (minimum deviance)",
+      "Interrupted time series, level change at 2014-05 (placebo, pre-2020 series)": "Placebo break, May 2014",
+      "Interrupted time series, level change at 2016-05 (placebo, pre-2020 series)": "Placebo break, May 2016",
+      "Interrupted time series, level change at 2018-05 (placebo, pre-2020 series)": "Placebo break, May 2018",
+      "Main model (2022–2025 vs 2018–2019)": "Adjusted logistic model, 2022–2025 vs 2018–2019"}
+t3["ord"] = t3.Analysis.map({k: i for i, k in enumerate(["Interrupted time series, level change at 2020-03",
+                                                          "Interrupted time series, level change at 2020-05"])}).fillna(9)
+t3 = t3.sort_values("ord", kind="stable").drop(columns="ord")
+t3["Analysis"] = t3.Analysis.replace(RT)
 note3 = ("Patients aged 18–59 years, aortic and mitral position. Interrupted time series: segmented binomial model of "
          "monthly proportions with calendar-month terms and HAC standard errors; placebo breaks fitted on the "
          "pre-2020 series. Other rows: logistic models comparing 2022–2025 with 2018–2019, adjusted for valve "
-         "position, aetiology, sex, age, admission type and region. CI, confidence interval; OR, odds ratio.")
+         "position, aetiology, sex, age, admission type and region. Further sensitivity analyses are shown in Table S3. "
+         "CI, confidence interval; OR, odds ratio.")
 
 md = open("manuscrito_EJCTS_v1.md").read()
 md = md.replace("Table 1. Characteristics of the analysis cohort by prosthesis type, 2008–2025 (Table1_baseline.csv).",
@@ -62,7 +74,7 @@ md = md.replace("Table 1. Characteristics of the analysis cohort by prosthesis t
                 + "\n\nValues are n (%) unless stated otherwise. IQR, interquartile range.\n")
 md = md.replace("Table 2. Determinants of mechanical-prosthesis use: mixed-effects logistic model (Table2_multilevel.csv).",
                 "**Table 2.** Determinants of mechanical-prosthesis use in adults, 2008–2025.\n\n" + tab(m2) + "\n\n" + note2 + "\n")
-md = re.sub(r"Table 3\. Change in mechanical-prosthesis use after 2020 in patients aged 18–59 years: main and sensitivity analyses\n\(Table3_2020_shift_robustness\.csv\)\.",
+md = re.sub(r"Table 3\. Change in mechanical-prosthesis use after 2020 in patients aged 18–59 years: main and sensitivity analyses\s+\(Table3_2020_shift_robustness\.csv\)\.",
             lambda _: "**Table 3.** Change in mechanical-prosthesis use after 2020: main and sensitivity analyses.\n\n"
             + tab(t3) + "\n\n" + note3 + "\n", md)
 figs = "\n\n# FIGURES\n\n" + "\n\n".join(

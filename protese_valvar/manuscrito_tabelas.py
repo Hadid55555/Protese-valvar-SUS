@@ -150,10 +150,10 @@ def pct(g):
 
 fig, ax = plt.subplots(1, 2, figsize=(10, 3.8), sharey=True)
 for i, (v, vn) in enumerate((("aórtica", "Aortic"), ("mitral", "Mitral"))):
-    for (lo, hi, lab, cor) in ((18, 60, "18–59 years", AZ), (60, 200, "≥60 years", LA)):
+    for (lo, hi, lab, cor, ls, mk) in ((18, 60, "18–59 years", AZ, "-", "o"), (60, 200, "≥60 years", LA, "--", "s")):
         g = u[(u.valva == v) & (u.idade >= lo) & (u.idade < hi) & (u.ano >= 2002)]
         sr = g.groupby("ano").apply(pct, include_groups=False)
-        ax[i].plot(sr.index, sr.values, marker="o", ms=3, color=cor, label=lab)
+        ax[i].plot(sr.index, sr.values, marker=mk, ms=3, color=cor, ls=ls, label=lab)
     ax[i].axvline(2007.5, color="grey", ls=":", lw=1)
     ax[i].axvline(2020, color="grey", ls="--", lw=1)
     ax[i].set_title(f"{vn} position")
@@ -272,21 +272,4 @@ s8 = g.groupby("grupo").agg(n=("mec", "size"), age_median=("idade", "median"),
                             northeast_pct=("regiao", lambda x: round(100 * (x == "Northeast").mean(), 1)))
 s8.to_csv(f"{M}/S8_included_vs_excluded.csv")
 print(s8.to_string())
-fl = pd.read_csv(f"{M}/Flowchart_counts.csv")
-fig, ax = plt.subplots(figsize=(7, 5.2))
-ax.axis("off")
-EN = {"indeterminada": "position not coded", "dupla/múltipla": "two or more prostheses", "tric/pulm": "tricuspid/pulmonary",
-      "múltipla": "multivalve code (I08)"}
-top = f"Admissions billing a valve prosthesis (OPM), 2008–2025\nn = {fl.n.iloc[0]:,}"
-exc = "\n".join(f"{(r.step.replace('Excluded: ', '').replace('valve position ', '') if 'valve position' not in r.step else EN.get(r.step.split('valve position ')[1], r.step))}: {r.n:,}"
-                for r in fl.iloc[1:-1].itertuples())
-bot = f"Analysis cohort: adults, aortic or mitral position,\none prosthesis type\nn = {fl.n.iloc[-1]:,}"
-kw = dict(ha="center", va="center", fontsize=9, bbox=dict(boxstyle="round,pad=0.6", fc="white", ec="black"))
-ax.text(0.35, 0.9, top, **kw)
-ax.text(0.35, 0.12, bot, **kw)
-ax.text(0.8, 0.5, "Excluded\n" + exc, ha="center", va="center", fontsize=8,
-        bbox=dict(boxstyle="round,pad=0.6", fc="#f2f2f2", ec="black"))
-ax.annotate("", xy=(0.35, 0.2), xytext=(0.35, 0.82), arrowprops=dict(arrowstyle="->"))
-ax.annotate("", xy=(0.6, 0.5), xytext=(0.35, 0.5), arrowprops=dict(arrowstyle="->"))
-fig.savefig(f"{M}/Figure1_flowchart.png", dpi=300, bbox_inches="tight")
-plt.close(fig)
+# fluxograma: figura_fluxograma.py
