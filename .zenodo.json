@@ -1,0 +1,14 @@
+{
+  "title": "Code and data for: Mechanical versus biological valve prostheses in Brazil's public health system, 2000–2025: a nationwide analysis of 305 566 admissions",
+  "upload_type": "software",
+  "description": "Analysis code, SHA-256 hashes of the public DATASUS input files and aggregated results (tables, figures and supplementary tables) for a nationwide study of surgical valve-prosthesis choice in Brazil's public health system (SIH/SUS), 2000–2025. No microdata are distributed; hospitals appear only under pseudonymous codes.",
+  "creators": [
+    {"name": "Hadid, Leonardo", "affiliation": "Instituto Nacional de Cardiologia, Rio de Janeiro, Brazil"},
+    {"name": "Salek, Luísa", "affiliation": "Instituto Nacional de Cardiologia, Rio de Janeiro, Brazil"},
+    {"name": "Passos, Felipe S.", "affiliation": "Hospital MaterDei, Salvador, Brazil"},
+    {"name": "Caldonazo, Tulio", "affiliation": "Jena University Hospital, Friedrich-Schiller-University Jena, Jena, Germany"}
+  ],
+  "license": "mit",
+  "version": "1.0.0",
+  "keywords": ["heart valve prosthesis", "mechanical valve", "bioprosthesis", "Brazil", "DATASUS", "administrative data"]
+}
