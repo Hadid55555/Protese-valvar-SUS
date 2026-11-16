@@ -1,5 +1,7 @@
 # Mechanical versus biological valve prostheses in Brazil's public health system, 2000–2025
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24281958.svg)](https://doi.org/10.5281/zenodo.24281958)
+
 Code and aggregated results for the manuscript *"Mechanical versus biological valve prostheses in Brazil's public
 health system, 2000–2025: a nationwide analysis of 305 566 admissions"* (Hadid L, Salek L, Passos FS, Caldonazo T;
 submitted to the European Journal of Cardio-Thoracic Surgery).
@@ -76,8 +78,7 @@ python protese_valvar/serie_2000_2025.py
 - `protese_valvar/classificar_valva.py`: valve position and aetiology from ICD-10. Q22.5 and I38 are ignored in adults.
 
 ## Citation
-See `CITATION.cff`. A versioned archive with a DOI is available through Zenodo (see the badge or release page once
-created).
+See `CITATION.cff`. Archived version: https://doi.org/10.5281/zenodo.24281958 (all versions: https://doi.org/10.5281/zenodo.24281957).
 
 ## License
 Code: MIT License (see `LICENSE`). Aggregated results: CC BY 4.0.
